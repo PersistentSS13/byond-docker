@@ -1,0 +1,4 @@
+docker build -t $IMAGE_NAME \ 
+	--build-arg BYOND_MAJOR=$BYOND_MAJOR \
+	--build-arg BYOND_MINOR=$BYOND_MINOR \
+	.
