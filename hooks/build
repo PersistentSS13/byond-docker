@@ -1,7 +1,11 @@
 #!/bin/bash
 
+echo BYOND_MAJOR=$BYOND_MAJOR
+echo BYOND_MINOR=$BYOND_MINOR
+
 docker build \
 	-f $DOCKERFILE_PATH \
+	-t $IMAGE_NAME \
 	--build-arg BYOND_MAJOR=$BYOND_MAJOR \
 	--build-arg BYOND_MINOR=$BYOND_MINOR \
-	-t $IMAGE_NAME .
+	.
