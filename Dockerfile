@@ -1,7 +1,7 @@
 FROM i386/ubuntu:xenial
 
-ENV BYOND_MAJOR 512
-ENV BYOND_MINOR 1448
+ENV BYOND_MAJOR 514
+ENV BYOND_MINOR 1569
 
 RUN apt-get update \
 	&& apt-get install -y unzip make curl libstdc++6
