@@ -15,7 +15,7 @@ on:
 
 env:
   REGISTRY: ghcr.io/persistentss13
-  IMAGE_NAME: byond-docker
+  IMAGE_NAME: byond-server
 
 jobs:
   build-and-push-image:
